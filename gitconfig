@@ -1,0 +1,12 @@
+[user]
+	name = Sean Duffy
+	email = seanduffy@live.com
+[core]
+	editor = vim
+	excludesfile = /Users/SeanDuffy/.gitignore_global
+[merge]
+	tool = vimdiff
+[color]
+	ui = true
+[push]
+	default = simple
