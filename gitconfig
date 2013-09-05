@@ -11,5 +11,5 @@
 [push]
 	default = simple
 [alias]
-    lg = log --online --graph --dectorate
+    lg = log --oneline --graph --dectorate
 
