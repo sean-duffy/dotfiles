@@ -3,10 +3,13 @@
 	email = seanduffy@live.com
 [core]
 	editor = vim
-	excludesfile = /Users/SeanDuffy/.gitignore_global
 [merge]
 	tool = vimdiff
+    conflictstyle = diff3
 [color]
 	ui = true
 [push]
 	default = simple
+[alias]
+    lg = log --online --graph --dectorate
+
