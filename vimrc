@@ -8,6 +8,8 @@ set smarttab
 set autoindent
 let &t_Co=256
 
+colo zellner
+
 call pathogen#infect()
 
 au BufReadPost gitconfig set syntax=gitconfig
