@@ -6,9 +6,8 @@ set shiftwidth=4
 set tabstop=4
 set smarttab
 set autoindent
+set ruler
 let &t_Co=256
-
-colo zellner
 
 call pathogen#infect()
 
