@@ -1,4 +1,5 @@
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PYTHONPATH=$PYTHONPATH:~/QSTK/
 
 alias blog_ssh='ssh seanduffy@ssh.alwaysdata.com'
 alias blog_sftp='sftp seanduffy@ssh.alwaysdata.com'
