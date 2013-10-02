@@ -1,18 +1,23 @@
 #!/bin/bash
-# This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
+# Script to symlink files in ~/dotfiles to the home directory
+# Symlinks are not created for README.md or hidden files
 
-dir=~/dotfiles
-files="profile vimrc vim gitconfig"
+files=~/dotfiles/*
 
-cd $dir
+cd
 
-for file in $files; do
-    if [ ! -h ~/.$file ]
+for full_path in $files
+do
+    file=`echo $full_path | cut -d'/' -f 5`
+    if [ "$file" != "README.md" ]
     then
-        echo "Creating symlink for $file..."
-        ln -s $dir/$file ~/.$file
-    else
-        echo "Symlink already exists for $file"
+        if [ ! -h ~/.$file ]
+        then
+            echo "Creating symlink for $file..."
+            ln -s $full_path .$file
+        else
+            echo "Symlink already exists for $file"
+        fi
     fi
 done
 
