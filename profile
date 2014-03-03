@@ -11,3 +11,5 @@ alias blog_sftp='sftp seanduffy@ssh.alwaysdata.com'
 # University
 alias pi_ssh='ssh pi@144.32.155.191'
 alias pi_sftp='sftp pi@144.32.155.191'
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
