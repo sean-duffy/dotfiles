@@ -3,6 +3,7 @@
 	email = seanduffy@live.com
 [core]
 	editor = vim
+    excludesfile = ~/dotfiles/gitignore_global
 [merge]
 	tool = vimdiff
     conflictstyle = diff3
@@ -12,4 +13,7 @@
 	default = simple
 [alias]
     lg = log --oneline --graph --decorate
+
+[credential]
+	helper = osxkeychain
 
