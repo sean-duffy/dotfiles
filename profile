@@ -13,3 +13,4 @@ alias pi_ssh='ssh pi@144.32.155.191'
 alias pi_sftp='sftp pi@144.32.155.191'
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+alias love="/Applications/love.app/Contents/MacOS/love"
