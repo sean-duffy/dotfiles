@@ -1,3 +1,6 @@
+" Go Syntax Highlighting
+set runtimepath+=$GOROOT/misc/vim
+
 syntax on
 filetype plugin indent on
 
