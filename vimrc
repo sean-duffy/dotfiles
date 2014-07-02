@@ -25,3 +25,6 @@ nnoremap <buffer> <F5> :exec '!python' shellescape(@%, 1)<cr>
 
 " Disable HTML syntax checking
 let g:syntastic_html_checkers=[]
+
+" Go Fmt on save
+autocmd FileType go autocmd BufWritePre <buffer> Fmt
