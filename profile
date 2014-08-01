@@ -18,3 +18,5 @@ alias love="/Applications/love.app/Contents/MacOS/love"
 export GOROOT="$HOME/.local/go"
 export GOPATH="$HOME/.local"
 export PATH="$HOME/.local/bin:$GOROOT/bin:$PATH"
+
+alias pxml="~/Programming/projects/pxml/pxml"
