@@ -1,3 +1,5 @@
+set -o vi
+
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PYTHONPATH=$PYTHONPATH:~/QSTK/
 
