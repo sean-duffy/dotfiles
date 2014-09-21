@@ -28,3 +28,7 @@ let g:syntastic_html_checkers=[]
 
 " Go Fmt on save
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
+
+" Hex editing alias
+:command Hex % ! xxd
+:command Unhex % ! xxd -r
