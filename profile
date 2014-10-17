@@ -6,7 +6,7 @@ alias love="/Applications/love.app/Contents/MacOS/love"
 
 export GOROOT="$HOME/.local/go"
 export GOPATH="$HOME/.local"
-export PATH="$HOME/.local/bin:$GOROOT/bin:$PATH"
+export PATH="$HOME/.local/bin:$GOROOT/bin:/Applications/:/Applications/Racket v6.1/bin:$PATH"
 
 alias pxml="~/Programming/projects/pxml/pxml"
 
