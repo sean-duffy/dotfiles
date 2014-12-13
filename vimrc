@@ -20,6 +20,7 @@ call pathogen#infect()
 au BufReadPost gitconfig set syntax=gitconfig
 au BufReadPost profile set syntax=sh
 au BufReadPost *.rkt set syntax=scheme
+au BufReadPost *.ino set syntax=c
 
 " Press F5 to run Python code
 nnoremap <buffer> <F5> :exec '!python' shellescape(@%, 1)<cr>
